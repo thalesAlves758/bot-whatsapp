@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thalesAlves758/bot-whatsapp/issues"
   },
-  "homepage": "https://github.com/thalesAlves758/bot-whatsapp#readme"
+  "homepage": "https://github.com/thalesAlves758/bot-whatsapp#readme",
+  "dependencies": {
+    "venom-bot": "^4.0.1"
+  }
 }
