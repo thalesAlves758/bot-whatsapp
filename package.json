@@ -1,0 +1,23 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thalesAlves758/bot-whatsapp.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp"
+  ],
+  "author": "Thales Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalesAlves758/bot-whatsapp/issues"
+  },
+  "homepage": "https://github.com/thalesAlves758/bot-whatsapp#readme"
+}
