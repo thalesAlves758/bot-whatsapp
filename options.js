@@ -1,0 +1,22 @@
+module.exports = {
+	autoClose: 0,
+	browserArgs: [
+		'--disable-web-security',
+		'--no-sandbox',
+		'--disable-web-security',
+		'--disk-cache-size=500',
+		'--disable-background-networking',
+		'--disable-default-apps',
+		'--disable-extensions',
+		'--disable-sync',
+		'--disable-translate',
+		'--hide-scrollbars',
+		'--metrics-recording-only',
+		'--mute-audio',
+		'--no-first-run',
+		'--safebrowsing-disable-auto-update',
+		'--ignore-certificate-errors',
+		'--ignore-ssl-errors',
+		'--ignore-certificate-errors-spki-list',
+	],
+}
