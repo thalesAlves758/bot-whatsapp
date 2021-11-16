@@ -1,5 +1,6 @@
 const venom = require('venom-bot');
 const options = require('./options');
+const { handleStateChange, handleIncomingCall, handleMessage } = require('./handlers');
 
 const main = () => {
   venom
@@ -7,16 +8,11 @@ const main = () => {
     .then(client => {
 
       // handle state change
-      client.onStateChange(state => {
-        if('CONFLICT'.includes(state)) client.useHere();
-      });
-
+      handleStateChange(client);
       // handle incoming call
-      client.onIncomingCall(async call => {
-        client.sendText(call.peerJid, "Desculpe, eu ainda não atendo ligações..");
-      });
-
-      console.log('started');
+      handleIncomingCall(client);
+      // handle message
+      handleMessage(client);
     })
     .catch(err => console.error(err));
 }
