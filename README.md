@@ -1,7 +1,5 @@
-<h1 style="text-align: center">sticker-bot-for-whatsapp</h1>
-<p style="text-align: center">
-    Um simples robô para WhatsApp que converte imagens recebidas de outros usuários em figurinhas.
-</p>
+# sticker-bot-for-whatsapp
+Um simples robô para WhatsApp que converte imagens recebidas de outros usuários em figurinhas.
 
 ## Pré-requisitos
 Ferramentas necessárias para rodar o projeto:
